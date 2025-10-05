@@ -1,6 +1,3 @@
-That's an excellent idea. A detailed `README.md` is crucial for any project, especially one built for a hackathon like NASA Space Apps.
-
-Here is a comprehensive, structured description for your `ex0huntapp` GitHub repository's README file.
 
 -----
 
