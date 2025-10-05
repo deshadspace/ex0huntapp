@@ -1,0 +1,91 @@
+/* Retro Pixel Theme */
+body {
+    background-color: #000022;
+    font-family: 'Press Start 2P', monospace;
+    color: #00ff00;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('https://raw.githubusercontent.com/JulietaUla/MiscTextures/main/pixel_stars.png');
+    background-repeat: repeat;
+    background-size: 50px 50px;
+}
+
+
+.container {
+    border: 3px dotted #ff00ff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 650px;
+    background-color: rgba(0, 0, 50, 0.85);
+    box-shadow: 0 0 15px #00ffff;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #ffcc00;
+    text-shadow: 2px 2px #ff0000, 0 0 5px #00ffff;
+    margin-bottom: 5px;
+    animation: pixel-glow 1.5s infinite;
+}
+
+.subtitle {
+    font-size: 0.7em;
+    color: #ff99ff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #0000ff;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+select, input[type="file"] {
+    margin: 5px 0 15px 0;
+    padding: 5px;
+    width: 200px;
+    font-family: 'Press Start 2P', monospace;
+    background-color: #000044;
+    color: #00ff00;
+    border: 2px solid #ff00ff;
+}
+
+button {
+    background-color: #ff00ff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #00ffff;
+    cursor: pointer;
+    font-family: 'Press Start 2P', monospace;
+}
+
+button:hover {
+    background-color: #ff99ff;
+}
+
+.hidden {
+    display: none;
+}
+
+#results {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 0.8em;
+    color: #00ff00;
+}
+
+/* Glow animation */
+@keyframes pixel-glow {
+    0%, 100% { text-shadow: 2px 2px #ff0000, 0 0 5px #00ffff; }
+    50% { text-shadow: 2px 2px #ff0000, 0 0 20px #00ffff; }
+}
